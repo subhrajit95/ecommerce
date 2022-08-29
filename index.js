@@ -20,7 +20,7 @@ app.listen(serverPort, async()=> {
 
 async function init(){
 	try{
-		await sequelize.sync({force: gtrue})
+		await sequelize.sync({force: true})
 
 		const defaultCategories = [
 		{
